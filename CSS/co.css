@@ -1,0 +1,16 @@
+.co-body{
+    background-image: url(/images/login-background.gif);
+}
+
+.co-card {
+    margin: 20px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #abcd;
+}
+
+.btn{
+    border-radius: 5px;
+    margin: 5px;
+}
+
