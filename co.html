@@ -16,6 +16,8 @@
 
 <body class="co-body">
 
+    <!-- NavBar -->
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Co-ordinator's Panel</a>
 
@@ -24,67 +26,68 @@
     </nav>
 
 
-    <!-- complaint registration -->
 
     <section class="container">
-        <div class="col-6">
-            <div class="card co-card">
-                <h4 style="margin-bottom : 20px">Register a Complaint</h4>
-                <div class="form-container">
-                    <form>
-                        <div class="form-group">
-                            <label for="InputCompType">Complaint Type</label>
-                            <select class="form-control" id="InputCompType">
-                                <option>Hardware</option>
-                                <option>Software</option>
-                                <option>Antivirus</option>
-                                <option>Printer</option>
-                                <option>Network</option>
-                                <option>IP Camera</option>
-                                <option>Digital Signage</option>
-                            </select>
-                        </div>
 
-                        <div class="form-group">
-                            <label for="InputTitle">Complain Title</label>
-                            <input type="text" class="form-control" id="InputTitle" required>
-                        </div>
+        <div class="row">
+            <!-- Register a Complaint -->
+            <div class="col-md-6">
+                <div class="card co-card">
+                    <h4 style="margin-bottom : 20px">Register a Complaint</h4>
+                    <div class="form-container">
+                        <form>
+                            <div class="form-group">
+                                <label for="InputCompType">Complaint Type</label>
+                                <select class="form-control" id="InputCompType">
+                                    <option>Hardware</option>
+                                    <option>Software</option>
+                                    <option>Antivirus</option>
+                                    <option>Printer</option>
+                                    <option>Network</option>
+                                    <option>IP Camera</option>
+                                    <option>Digital Signage</option>
+                                </select>
+                            </div>
 
-                        <div class="form-group">
-                            <label for="InputAssetID">Asset ID</label>
-                            <input type="text" class="form-control" id="InputAssetID" placeholder="optional">
-                        </div>
+                            <div class="form-group">
+                                <label for="InputTitle">Complain Title</label>
+                                <input type="text" class="form-control" id="InputTitle" required>
+                            </div>
 
-                        <div class="form-group">
-                            <label for="InputDesc">Complaint Description</label>
-                            <textarea class="form-control" id="InputDesc" rows="5" required></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input class="btn btn-dark" style="float:right" type="submit">
+                            <div class="form-group">
+                                <label for="InputAssetID">Asset ID</label>
+                                <input type="text" class="form-control" id="InputAssetID" placeholder="optional">
+                            </div>
 
-                        </div>
-                        <div class="form-group">
-                            <input class="btn btn-outline-dark" style="float:right" type="reset">
-                        </div>
+                            <div class="form-group">
+                                <label for="InputDesc">Complaint Description</label>
+                                <textarea class="form-control" id="InputDesc" rows="5" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input class="btn btn-dark" style="float:right" type="submit">
 
-                    </form>
+                            </div>
+                            <div class="form-group">
+                                <input class="btn btn-outline-dark" style="float:right" type="reset">
+                            </div>
+
+                        </form>
+                    </div>
+
                 </div>
-
             </div>
-        </div>
 
-        <!-- view complaints -->
-
-        <div class="col-6">
-            <div class="card co-card">
-                <h4>Registered Complaints</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis sit reiciendis soluta placeat
-                    vel, facere debitis enim perferendis architecto, possimus delectus saepe tempore voluptatem
-                    eaque asperiores. Nulla eligendi recusandae quasi.</p>
+            <!-- View Complaints -->
+            <div class="col-md-6">
+                <div class="card co-card">
+                    <h4>Registered Complaints</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis sit reiciendis soluta placeat
+                        vel, facere debitis enim perferendis architecto, possimus delectus saepe tempore voluptatem
+                        eaque asperiores. Nulla eligendi recusandae quasi.</p>
+                </div>
             </div>
+
         </div>
-
-
     </section>
 
 
